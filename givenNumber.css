@@ -1,0 +1,79 @@
+html{
+    background-image: url("../img/fondEcran.png");
+    background-size: 100% 300%;
+}
+
+h1{
+    color:rgb(241, 206, 10);
+    text-shadow: 2px 2px 4px whitesmoke;
+    text-shadow: 1px 1px rgb(210, 12, 12);
+    background-color: #fef2eee3;
+    text-align: center;
+    font-size: 4em;
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 2% 0 2% 0;
+    margin:0;
+    box-shadow:1px 1px 4px  #fef2eee3
+
+
+}
+
+
+
+#userJeu{
+    display:flex;
+    margin-top:10%;
+    justify-content: center;
+
+}
+
+#tentative{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-right:7%;
+    font-size: 3em;
+
+}
+
+#nbTentatives{
+    margin-left:2%;
+    
+}
+
+#btn{
+    margin-left: 2%;
+    border: 2px solid rgb(241, 206, 10);
+    border-radius: 10px;
+    width: 15em;
+    height:10em;
+    align-items: center;
+    background-color:rgba(241, 206, 10, 0.676) ;
+    color:red;
+    transition:all 0.2s ease
+}
+
+#btn:hover{
+    border: 2px solid rgb(173, 147, 13);
+    background-color:rgb(241, 206, 10);
+    transform: translateY(-2px);
+}
+
+#range0{
+    margin-right:1%;
+    font-size: 4em;
+}
+
+#range1{
+    margin-left: 1%;
+    font-size: 4em;
+}
+
+#givenNumber{
+    width: 40%;
+    font-size: 4em;
+    justify-content: center;
+
+}
